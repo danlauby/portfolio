@@ -1,12 +1,12 @@
 body {
-  background-color: lightgray
+  background: url(../img/brick-background.jpg);
 }
 
 img {
-  width: 50px;
+  width: 60px;
   border-radius: 50%;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 6px;
 
 }
 
@@ -17,19 +17,41 @@ h1 {
   font-family: Helvetica;
   font-size: 50px;
   font-weight: bold;
+  color: #E2D7D0;
 }
 
 h2 {
   font-family: monospace;
-  font-size: 60px;
-  font-weight: bold;
+  font-size: 50px;
   margin-left: 30px;
+  color: #9B5B1C;
+}
+
+h3 {
+  font-family: monospace;
+  font-size: 40px;
+  color: #9B5B1C;
+}
+
+p {
+  color: #332E2A;
+  font-family: sans-serif;
+  line-height: 30px;
 }
 
 ul {
   list-style-type: none;
   margin-top: 25px;
   margin-left: 200px;
+}
+
+ol {
+  margin-left: 500px;
+  font-size: 25px;
+}
+
+ol li {
+  font-family: monospace;
 }
 
 a {
@@ -60,9 +82,9 @@ li a {
  }
 
 .header {
-  background-color: darkgray;
+  background-color: #6F4923;
   padding: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .footer img {
@@ -72,4 +94,14 @@ li a {
 }
  .container {
    background-color: #fff;
+   padding-top: 30px;
+   border: 2px solid #6F4923;
  }
+
+ .panel-title {
+
+ }
+
+.interests {
+  text-align: center;
+}
