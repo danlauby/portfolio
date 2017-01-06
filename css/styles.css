@@ -76,6 +76,9 @@ li a {
     color: #fff;
  }
 
+span {
+  font-weight: bold;
+}
  .header a:hover {
    background-color: #aaa;
     color: #fff;
