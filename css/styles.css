@@ -1,6 +1,4 @@
-body {
-  background: url(../img/brick-background.jpg);
-}
+
 
 img {
   width: 60px;
@@ -98,7 +96,6 @@ span {
  .container {
    background-color: #fff;
    padding-top: 30px;
-   border: 2px solid #6F4923;
  }
 
  .panel-title {

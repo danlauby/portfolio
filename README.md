@@ -2,11 +2,11 @@
 
 #### _Portfolio of my projects, 01.06.2017_
 
-#### By _**Dan Lauby**_
+#### By _**Daniel Lauby**_
 
 ## Description
 
-_A website to display information about Dan Lauby and his collection of work._
+_A website to display information about Daniel Lauby and his collection of work._
 
 ## Setup/Installation Requirements
 
@@ -34,4 +34,4 @@ _HTML, CSS, Bootstrap, Git_
 
 *MIT*
 
-Copyright (c) 2016 **_Dan Lauby_**
+Copyright (c) 2017 **_Daniel Lauby_**
