@@ -1,114 +1,133 @@
 <DOCTYPE html>
   <html>
-    <head>
-      <meta charset="utf-8">
-      <title>Daniel Lauby</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" type="text/css">
-      <link rel="stylesheet" href="css/styles.css" type="text/css">
-    </head>
-    <body>
-      <div class="header">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="img/dan.jpg" alt="face image of Dan Lauby">
-          </div>
-          <div class="col-md-4">
-            <h1><a href="index.html">Daniel Lauby</a></h1>
-          </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Daniel Lauby</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Monoton|Montserrat+Subrayada|Scada|Walter+Turncoat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">\
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8" type="text/javascript"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo"><h1>Daniel Lauby</h1></a>
+      <nav>
+        <a href="index.html" id="menu-icon"></a>
+        <ul>
+          <li>
+            <a href="index.html">Projects</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="about.html#wheelhouse">Wheelhouse</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <div class="container">
+    <div class="project-row">
+      <div class="project-item">
+        <a href="https://club-manager-76d7f.firebaseapp.com/">
+          <h3 class="panel-title">Timbers Club Manager</h3>
+          <img src="img/Timbers-screenshot.PNG" alt="Screenshot of Timbers Club Manager's Homepage">
+        </a>
+        <div class="project-description">
+          <p>Angular 2 project that allows users to view a list of Timbers soccer players and an admin section that offers tools to add/update/delete players from the roster</p>
         </div>
       </div>
-
-      <div class="container">
-        <h2>me:</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="well panel-default">
-              <div class="panel-heading">
-                <a href="https://github.com/danlauby/hello-world">
-                  <h3 class="panel-title">Club Manager</h3></a>
-                </div>
-                <div class="panel-body">
-                  <p>Angular 2 project that allows users to view a list of Timbers soccer players and an admin section that offers tools to add/update/delete players from the roster</p>
-                </div>
-              </div>
-            </div>
-        <div class="col-md-4">
-          <div class="well panel-default">
-            <div class="panel-heading">
-              <a href="https://github.com/danlauby/goodbye">
-              <h3 class="panel-title">Shoe Store</h3></a>
-            </div>
-            <div class="panel-body">
-              <p>Administrative tool for a shoe store. Featuring PHP, CRUD, MySQL multi-relational database, Twig templating and Silex micro framework</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="well panel-default">
-            <div class="panel-heading">
-              <a href="https://github.com/danlauby/cookie-recipe">
-              <h3 class="panel-title">Github Battle</h3></a>
-            </div>
-            <div class="panel-body">
-              <p>Game that compares Github repo statistics and displays current popular repos for various languages. Built in React library and ES6</p>
-            </div>
-          </div>
+      <div class="project-item">
+        <a href="http://roxysdogranch.com/">
+          <h3 class="panel-title">Roxy's Dog Ranch</h3>
+          <img src="img/Roxys-screenshot.PNG" alt="Screenshot of Roxy's Dog Ranch Homepage">
+        </a>
+        <div class="project-description">
+          <p>A WordPress site. I designed the 'Dog Blog', added custom buttons and customized the main footer</p>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <div class="well panel-default">
-            <div class="panel-heading">
-              <a href="https://github.com/danlauby/my-first-webpage">
-              <h3 class="panel-title">MonAmi</h3></a>
-            </div>
-            <div class="panel-body">
-              <p>A social media app built to connect like-minded parents based on interests. This app utilizes the Angular2 framework, user authentication, and realtime data storage with firebase</p>
-            </div>
-          </div>
+      <div class="project-item">
+        <a href="https://nwmotocycle.com/">
+          <h3 class="panel-title">NW MotoCycle</h3>
+          <img src="img/Motocycle-screenshot.PNG" alt="Screenshot of NW MotoCycles's Homepage">
+        </a>
+        <div class="project-description">
+          <p>Designed Read More/Email Us/Call Us and Six Reasons... banner on Home page. Link all contact info and test before deployment.</p>
         </div>
-        <div class="col-md-4">
-          <div class="well panel-default">
-            <div class="panel-heading">
-              <a href="https://github.com/danlauby/pet-webpage">
-              <h3 class="panel-title">Check YoSelf!</h3></a>
-            </div>
-            <div class="panel-body">
-              <p>This application allows a user to add food entries for a day to catalog what they ate, how many calories it had and additional notes. The user can add and update entries</p>
-            </div>
-          </div>
+      </div>
+      <div class="project-item">
+        <a href="https://github.com/danlauby/shoe-store">
+          <h3 class="panel-title">Shoe Store</h3>
+          <img src="img/Shoe-Store-screenshot.PNG" alt="Screenshot of Shoe Store Homepage">
+        </a>
+        <div class="project-description">
+          <p>Administrative tool for a shoe store. Featuring PHP, CRUD, MySQL multi-relational database, Twig templating and Silex micro framework</p>
         </div>
-        <div class="col-md-4">
-          <div class="well panel-default">
-            <div class="panel-heading">
-              <a href="https://github.com/danlauby/resort-website">
-              <h3 class="panel-title">Doctor Lookup</h3></a>
-            </div>
-            <div class="panel-body">
-              <p>This program allows users to enter a medical issue and receive a list of possible doctors that can treat that specific medical issue</p>
-            </div>
-          </div>
+      </div>
+      <div class="project-item">
+        <a href="https://react-github-battle-ce89f.firebaseapp.com/">
+          <h3 class="panel-title">Github Battle</h3>
+          <img src="img/Github-Battle-screenshot.PNG" alt="Screenshot of Github Battle Popular Webpage">
+        </a>
+        <div class="project-description">
+          <p>Game that compares Github repo statistics and displays current popular repos for various languages. Built in React library and ES6</p>
         </div>
       </div>
     </div>
+    <div class="project-row">
+      <div class="project-item">
+        <a href="https://github.com/danlauby/mon-ami">
+          <h3 class="panel-title">MonAmi</h3>
+          <img src="img/Mon-Ami-screenshot.PNG" alt="Screenshot of Mon Ami Login Page">
+        </a>
+        <div class="project-description">
+          <p>A social media app built to connect like-minded parents based on interests. This app utilizes the Angular2 framework, user authentication, and realtime data storage with firebase</p>
+        </div>
+      </div>
+      <div class="project-item">
+        <a href="https://github.com/danlauby/check-yourself">
+          <h3 class="panel-title">Check YoSelf!</h3>
+          <img src="img/Check-Yoself-screenshot.PNG" alt="Screenshot of Check Yo-Self Home Page">
+        </a>
+        <div class="project-description">
+          <p>This application allows a user to add food entries for a day to catalog what they ate, how many calories it had and additional notes. The user can add and update entries</p>
+        </div>
+      </div>
+      <div class="project-item">
+        <a href="https://github.com/danlauby/doctor_lookup">
+          <h3 class="panel-title">Doctor Lookup</h3>
+          <img src="img/Doctor-Lookup-screenshot.PNG" alt="Screenshot of Doctor Lookup Results Page">
+        </a>
+        <div class="project-description">
+          <p>This program allows users to enter a medical issue and receive a list of possible doctors that can treat that specific medical issue</p>
+        </div>
+      </div>
 
-    <div class="footer">
-      <div class="row">
-        <div class="col-md-4">
-          <i class="fa fa-facebook-square" aria-hidden="true"><a href="https://www.linkedin.com/in/daniel-lauby/"></i></a>
-        </div>
-        <div class="col-md-4">
-          <i class="fa fa-linkedin-square" aria-hidden="true"><a href="https://www.linkedin.com/in/daniel-lauby/"></i></a>
-        </div>
-        <div class="col-md-4">
-          <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/danlauby"></i></a>
-        </div>
-        <div class="col-md-4">
-          <i class="fa fa-twitter-square" aria-hidden="true"><a href="https://twitter.com/DanLauby"></i></a>
+      <div class="project-item">
+        <a href="https://nwmotocycle.com/">
+          <h3 class="panel-title">Go Trashy</h3>
+          <img src="img/Go-Trashy-screenshot.PNG" alt="Screenshot of Go Trashys's Homepage">
+        </a>
+        <div class="project-description">
+          <p>Designed 'Contact Us' page, custom buttons and Apple Store, Google play banners and test before deployment</p>
         </div>
       </div>
     </div>
-    </body>
-  </html>
+  </div>
+
+  <div class="footer">
+    <div class="row">
+      <a href="https://www.linkedin.com/in/daniel-lauby/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href="https://github.com/danlauby"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/DanLauby"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    </div>
+    <a href="mailto:dmlauby@gmail.com"><p>danjlauby@gmail.com</p></a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "_A website to display information about Daniel Lauby and his collection of work._",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danlauby/portfolio.git"
+  },
+  "author": "Daniel LAuby\u001b[D\u001b[D\u001b[a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danlauby/portfolio/issues"
+  },
+  "homepage": "https://github.com/danlauby/portfolio#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "devicon": "^2.0.0"
+  }
+}
