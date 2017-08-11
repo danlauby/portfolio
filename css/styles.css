@@ -16,15 +16,16 @@ header {
 	z-index: 100;
 	padding: 30px;
 	margin-bottom: 4em;
-	/*border-bottom: 5px solid #F62459;*/
+	opacity: 0.9;
 }
 
 ul {
+	padding-top: 0.8em;
 	list-style: none;
 	padding-right: 2em;
 }
 
-li {
+header li, .footer li {
 	display: inline-block;
 	float: left;
 	padding: 10px
@@ -39,7 +40,6 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #9B5B1C;
-
 }
 
 img {
@@ -52,6 +52,7 @@ h1 {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	padding-top: 0;
 	font-size: 4em;
+	padding-top: 0.011em;
 	margin-bottom: 2em;
 }
 
@@ -69,7 +70,7 @@ p {
 span {
 	font-family: 'Freckle Face', cursive;
 	color: #9B5B1C;
-	font-size: 60px;
+	font-size: 30px;
 	padding: 10px;
 }
 
@@ -93,17 +94,6 @@ nav {
 	height: 32px;
 }
 
-
-/*h1 a {
-  color: #fff;
-  padding-left: 90px;
-  padding-top: 7px;
-  font-family: Helvetica;
-  font-size: 50px;
-  font-weight: bold;
-  color: #58554F;
-}*/
-
 .container {
 	margin-top: 4em;
 	display: flex;
@@ -113,6 +103,13 @@ nav {
 .header {
 	background-color: rgb(55, 54, 56);
 	padding: 20px;
+}
+
+nav li a {
+	font-family: 'Freckle Face', cursive;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	font-style: none;
 }
 
 .footer {
@@ -126,6 +123,7 @@ nav {
 	padding: 1rem;
 	text-align: center;
 	padding-top: 0em;
+	opacity: 0.9;
 }
 
 .footer p {
@@ -181,6 +179,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	margin-top: 6em;
+	/*margin-bottom: 2em;*/
 }
 
 .about img {
@@ -191,16 +190,23 @@ nav {
 
 .about p {
 	width: 600px;
+	margin-top: 4.3em;
 	padding-left: 50px;
 	line-height: 2.5em;
 }
 
+.about a {
+	color: grey;
+	padding-left: 5px;
+}
+
 .icons {
-	margin-left: 150px;
+	margin-left: 180px;
 }
 
 #wheelhouse {
 	margin: 6em;
+	padding-bottom: 3em;
 	display: flex;
 }
 
@@ -219,104 +225,44 @@ nav {
 	text-align: center;
 }
 
-/*CONTACT FORM*/
-#after_submit, #email_validation, #name_validation {
-	display:none;
+.contact {
+	margin-top: 8em;
+	display: flex;
+	justify-content: space-around;
 }
 
-#after_submit{
-	background-color: #c0ffc0;
-	line-height: 31px;
-	margin-bottom: 10px;
-	padding-left: 20px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+.contact li a {
+	margin-right: 10em;
+	font-family: 'Scada', sans-serif;
+	font-style: normal;
+	line-height: 3em;
+	color: rgb(52, 56, 55);
 }
 
-label, #after_submit{
-	color: #6c6c6c;
+.contact li {
+	font-size: 1.5em;
+	color: rgb(52, 56, 55);
+	margin-top: 10px;
+	/*margin-left: 190px;*/
 }
 
-input{
-	line-height: 31px;
+.contact i {
+	font-size: 1.5em;
+	color: #000;
+	padding-right: 0.3em;
 }
 
-input, textarea{
-	width: 100%;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	background-color: rgba(255,255,255,.6);
-	border: solid 1px #b6c7cb;
-}
-
-#contact_form{
-	height: 317px;
-	background-color: #fff;
-	border: solid 1px #e5e5e5;
-	padding: 10px 20px 50px 20px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	margin-top: 10em;
-}
-
-#submit_button{
-	width: 109px;
-	height: 34px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	background-color: #86c5fa;
-	-webkit-box-shadow: inset 0 2px rgba(255,255,255,.29);
-	-moz-box-shadow: inset 0 2px rgba(255,255,255,.29);
-	box-shadow: inset 0 2px rgba(255,255,255,.29);
-	border: solid 1px #77a4cb;
-	font-weight: bold;
-	color: #fff;
-	margin-left: 7px;
-}
-
-label.required:after {
-	content:'*';
-	color:red;
-}
-
-.error {
-	background-color:#FFDFDF;
-	color:red;
-}
-.error_message{
-	font-style: italic;
-	font-size: 10px;
-}
-.icons .row {
-	margin:40px;
-}
-
-/*.about-nav {
-	padding-right: 400px;
-}*/
-
- /*.about-nav li a {
-	 color: red;
-	 display: flex;
-	 justify-content: center;
-	 margin-top: 6em;
- }*/
-
-
-/*.page-header {
-	font-family: 'Monoton', cursive;
+.contact li :hover {
 	color: red;
-	position: inherit;
-	padding-left: 6.5em;
-	margin-top: 0;
-	font-size: 80px;
-}*/
+}
 
+.contact-form {
+	margin: 6em 0 4em 12em;
+}
 
+input {
+	background-color: red;
+}
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 640px) {
